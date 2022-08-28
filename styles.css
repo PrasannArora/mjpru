@@ -1,0 +1,133 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header h5 {
+    display: inline;
+    position: relative;
+    float: right;
+    padding: 0.5%;
+}
+
+#navbar ul {
+    list-style-type: none;
+}
+
+#navbar li {
+    display: inline;
+    padding: 1%;
+    width: auto;
+}
+
+
+
+.box {
+    
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+.boxed {
+    border: 2px solid rgb(0, 0, 0) ;
+    margin-top: 7%;
+    padding:20px;
+}
+.boxed img{
+    display: inline;
+}
+.boxed p{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 5%;
+}
+
+.student{
+    float: left;
+}
+
+.faculty{
+    float:right;
+}
+footer{
+    padding-top: 30%;
+}
+footer p{
+    
+    text-align: center;
+    
+    background-color: rgb(255, 232, 163);
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 1%;
+    
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100%;
+    min-width: max-content;
+    max-width: max-content;
+    overflow: hidden;
+    overflow-x: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #ffffff;}
+
+
+
+
+
+
+
