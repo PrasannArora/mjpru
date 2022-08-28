@@ -27,14 +27,23 @@ body {
 
 .box {
     
+    overflow: hidden;
+    
     padding-left: 20%;
     padding-right: 20%;
+    display: block;
     
+}
+.box h2{
+    padding-top: 7%;
 }
 .boxed {
     border: 2px solid rgb(0, 0, 0) ;
     margin-top: 7%;
     padding:20px;
+}
+.boxed:hover{   
+    background-color: khaki;
 }
 .boxed img{
     display: inline;
@@ -60,8 +69,13 @@ footer p{
     
     text-align: center;
     
-    background-color: rgb(255, 232, 163);
+    background-color: khaki;
     color: rgb(0, 0, 0);
+}
+.implinks {
+    background-color: rgb(251, 243, 171);
+    padding: 5%;
+    margin-top: 5%;
 }
 
 
