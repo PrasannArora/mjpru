@@ -77,7 +77,19 @@ footer p{
     padding: 5%;
     margin-top: 5%;
 }
-
+.ui.full-width-container {
+    max-width: 100vw;
+    padding: 5vw 10vw;
+}
+.gradient-blue {
+    background-color: rgb(161, 198, 213);
+    
+}
+.container{
+    text-align: right;
+    margin-right:350px;
+    margin-top:-260px;
+}
 
 
 
